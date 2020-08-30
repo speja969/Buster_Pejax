@@ -27,13 +27,13 @@ cp ~/Buster_Pejax/dotfiles/tint2rc ~/.config/tint2
 
 cp ~/Buster_Pejax/dotfiles/autostart.sh ~/.config/openbox
 
-cp ~/Buster_Pejax/dotfiles/.Xresources .
+cp ~/Buster_Pejax/dotfiles/.Xresources ~/
 
 cp ~/Buster_Pejax/dotfiles/rc.xml ~/.config/openbox
 
 cp ~/Buster_Pejax/dotfiles/menu.xml ~/.config/openbox
 
-cp ~/Buster_Pejax/dotfiles/keyboard.sh .
+cp ~/Buster_Pejax/dotfiles/keyboard.sh ~/
 
 sudo cp ~/Buster_Pejax/dotfiles/rs.png /usr/share/fbxkb/images/rs.png
 
