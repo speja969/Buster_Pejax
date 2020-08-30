@@ -1,0 +1,22 @@
+
+nitrogen --restore &
+
+export PATH="${PATH}:$HOME/.scripts"
+
+tint2 &
+
+~/keyboard.sh
+
+fbxkb &
+
+urxvtd -q &
+
+~/conkystartup.sh
+
+pnmixer &
+
+compton -cC -i 0.7 -e 0.7 -m 0.9 -r 4 -l -4 -t -4 &
+# $HOME/bin/start-compton.sh &
+
+# Start screensaver
+xscreensaver -no-splash &
