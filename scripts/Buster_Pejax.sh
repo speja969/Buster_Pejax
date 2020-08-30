@@ -76,8 +76,8 @@ echo debinfo >> ~/.bashrc
 
 ## instalacija comptona
 cp ~/Buster_Pejax/scripts/install_compton.sh ~/.scripts
-mkdir $HOME/bin
-cp ~/Buster_Pejax/scripts/start-compton.sh $HOME/bin
+mkdir ~/bin
+cp ~/Buster_Pejax/dotfiles/start-compton.sh ~/bin
 
 ## instalacija ncmpcpp
 cp ~/Buster_Pejax/scripts/install_ncmpcpp.sh ~/.scripts
