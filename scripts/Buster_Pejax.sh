@@ -97,18 +97,18 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/10_openbox_arc-theme-gtk
 sudo ./install.sh
 
+cd ~/projects/debian-openbox/10_openbox_numix-paper-icons
+sudo ./install.sh
+
 cd ~/projects/debian-openbox/install_wpsoffice
 sudo ./install.sh
 
-cd ~/projects/debian-openbox/script_brightness-control
-sudo ./install.sh
-
-cd ~/projects/debian-openbox/script_brightness-control
+cd ~/projects/debian-openbox/script_install_dt-dark-theme
 sudo ./install.sh
 
 sudo cp ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay/kuala-lumpur-1820944_1920.jpg /usr/share/images/desktop-base
 sudo chmod 777 /usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg
-sudo sed -e 's!#background=!/usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg!'
+sudo sed -e 's!#background=!background=/usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
 
 
 
