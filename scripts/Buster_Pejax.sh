@@ -86,11 +86,13 @@ cp ~/Buster_Pejax/scripts/screeny ~/.scripts
 ## reinstall youtube-dl
 cp ~/Buster_Pejax/scripts/reinstall_youtube-dl.sh ~/.scripts
 
-sudo chmod --recursive 777 ~/.scripts
-
 mkdir ~/projects
 cd ~/projects
 git clone https://github.com/speja969/debian-openbox.git
+
+sudo chmod --recursive 777 ~/projects
+sudo chmod --recursive 777 ~/.scripts
+
 cd ~/projects/debian-openbox/10_openbox_terminator
 sudo ./install.sh
 
