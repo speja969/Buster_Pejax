@@ -108,7 +108,7 @@ sudo ./install.sh
 
 sudo cp ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay/kuala-lumpur-1820944_1920.jpg /usr/share/images/desktop-base
 sudo chmod 777 /usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg
-sudo sed -e 's!#background=!background=/usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
+sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
 
 
 
