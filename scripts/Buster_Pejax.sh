@@ -91,19 +91,19 @@ sudo chmod --recursive 777 ~/.scripts
 mkdir ~/projects
 cd ~/projects
 git clone https://github.com/speja969/debian-openbox.git
-cd ~/debian-openbox/10_openbox_terminator
+cd ~/projects/debian-openbox/10_openbox_terminator
 sudo ./install.sh
 
-cd ~/debian-openbox/10_openbox_arc-theme-gtk
+cd ~/projects/debian-openbox/10_openbox_arc-theme-gtk
 sudo ./install.sh
 
-cd ~/debian-openbox/install_wpsoffice
+cd ~/projects/debian-openbox/install_wpsoffice
 sudo ./install.sh
 
-cd ~/debian-openbox/script_brightness-control
+cd ~/projects/debian-openbox/script_brightness-control
 sudo ./install.sh
 
-cd ~/debian-openbox/script_brightness-control
+cd ~/projects/debian-openbox/script_brightness-control
 sudo ./install.sh
 
 sudo cp ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay/kuala-lumpur-1820944_1920.jpg /usr/share/images/desktop-base
