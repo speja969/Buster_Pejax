@@ -17,7 +17,7 @@ sudo apt-get install -y software-properties-common && sudo apt-add-repository co
 
 sudo apt-get update
 
-sudo apt-get -t buster-backports install micro
+sudo apt-get -t buster-backports install -y micro
 
 sudo apt-get install -y openbox obconf rxvt-unicode mousepad firefox-esr pcmanfm nitrogen tint2 menu pulseaudio pavucontrol gnome-backgrounds mate-backgrounds mlocate lxappearance vlc arandr apt-file synaptic firmware-linux firmware-linux-nonfree doublecmd-common xutils mesa-utils xarchiver htop disk-manager sysstat acpi hardinfo hddtemp wicd k3b i3lock aptitude gnome-disk-utility python3-pip python-pip materia-gtk-theme deepin-icon-theme ttf-mscorefonts-installer fonts-ubuntu fonts-ubuntu-console suckless-tools simplescreenrecorder font-manager ranger geany gdebi lightdm fbxkb mpv curl gmrun xscreensaver xterm pnmixer sxiv scrot xsettingsd ffmpeg git qbittorrent wmctrl
 
