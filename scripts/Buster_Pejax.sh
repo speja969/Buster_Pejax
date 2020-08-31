@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-
 sudo apt update && sudo apt upgrade
 
 default_user=$(logname 2>/dev/null || echo ${SUDO_USER:-${USER}})
@@ -57,7 +55,7 @@ sudo sed -i 's/<allow_active>auth_admin_keep/<allow_active>yes/' /usr/share/polk
 sudo chmod --recursive 777 ~/.config/openbox
 sudo chmod 777 ~/keyboard.sh
 
-mkdir ~/Documents/DEB
+mkdir -p ~/Documents/DEB
 
 ## WPS Office
 wget --no-check-certificate http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/9615/wps-office_11.1.0.9615.XA_amd64.deb -O ~/Documents/DEB/wps-office_11.1.0.9615.XA_amd64.deb
@@ -90,3 +88,20 @@ cp ~/Buster_Pejax/scripts/reinstall_youtube-dl.sh ~/.scripts
 
 sudo chmod --recursive 777 ~/.scripts
 
+mkdir ~/projects
+cd ~/projects
+git clone https://github.com/speja969/debian-openbox.git
+cd ~/debian-openbox/10_openbox_terminator
+sudo ./install.sh
+
+cd ~/debian-openbox/10_openbox_arc-theme-gtk
+sudo ./install.sh
+
+cd ~/debian-openbox/install_wpsoffice
+sudo ./install.sh
+
+cd ~/debian-openbox/script_brightness-control
+sudo ./install.sh
+
+cd ~/debian-openbox/script_brightness-control
+sudo ./install.sh
