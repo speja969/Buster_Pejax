@@ -7,7 +7,7 @@ HOME="/home/${default_user}"
 
 mkdir ~/.config
 
-sudo chown $USER:$USER ~/.config
+sudo chown $USER:$USER --recursive ~/.config
 
 mkdir ~/.config/openbox
 
