@@ -21,7 +21,7 @@ sudo apt-get update
 
 sudo apt-get -t buster-backports install -y micro
 
-sudo apt-get install -y openbox obmenu obconf rxvt-unicode mousepad firefox-esr pcmanfm tint2 menu pulseaudio pavucontrol gnome-backgrounds mate-backgrounds mlocate lxappearance vlc arandr apt-file synaptic firmware-linux firmware-linux-nonfree doublecmd-common xutils mesa-utils xarchiver htop disk-manager sysstat acpi hardinfo hddtemp wicd k3b i3lock aptitude gnome-disk-utility python3-pip python-pip materia-gtk-theme deepin-icon-theme ttf-mscorefonts-installer fonts-ubuntu fonts-ubuntu-console suckless-tools simplescreenrecorder font-manager ranger geany gdebi lightdm fbxkb mpv curl gmrun xscreensaver xterm pnmixer sxiv scrot xsettingsd ffmpeg git qbittorrent wmctrl
+sudo apt-get install -y openbox obmenu obconf rxvt-unicode mousepad firefox-esr pcmanfm nitrogen tint2 menu pulseaudio pavucontrol mlocate lxappearance vlc arandr apt-file synaptic firmware-linux firmware-linux-nonfree doublecmd-common xutils mesa-utils xarchiver htop disk-manager sysstat acpi hardinfo hddtemp wicd k3b i3lock aptitude gnome-disk-utility python3-pip python-pip ttf-mscorefonts-installer fonts-ubuntu fonts-ubuntu-console suckless-tools simplescreenrecorder font-manager ranger geany gdebi lightdm fbxkb mpv curl gmrun xscreensaver galternatives pnmixer sxiv scrot xsettingsd ffmpeg git qbittorrent wmctrl
 
 cp ~/Buster_Pejax/dotfiles/tint2rc ~/.config/tint2
 
@@ -59,16 +59,6 @@ sudo chmod 777 ~/keyboard.sh
 
 mkdir -p ~/Documents/DEB
 
-## WPS Office
-wget --no-check-certificate http://wdl1.pcfg.cache.wpscdn.com/wpsdl/wpsoffice/download/linux/9615/wps-office_11.1.0.9615.XA_amd64.deb -O ~/Documents/DEB/wps-office_11.1.0.9615.XA_amd64.deb
-
-## DeadBeef muzički plejer
-wget --no-check-certificate https://sourceforge.net/projects/deadbeef/files/travis/linux/1.8.4/deadbeef-static_1.8.4-1_amd64.deb/download -O ~/Documents/DEB/deadbeef-static_1.8.4-1_amd64.deb
-
-## XnView MP pregledač slika
-wget --no-check-certificate https://download.xnview.com/XnViewMP-linux-x64.deb -O ~/Documents/DEB/XnViewMP-linux-x64.deb
-
-
 ## debinfo -- prikaz resursa pri otvaranju terminala
 sudo cp ~/Buster_Pejax/scripts/debinfo /usr/bin
 sudo chmod 777 /usr/bin/debinfo
@@ -95,8 +85,6 @@ git clone https://github.com/speja969/debian-openbox.git
 sudo chmod --recursive 777 ~/projects
 sudo chmod --recursive 777 ~/.scripts
 
-
-
 cd ~/projects/debian-openbox/10_openbox_terminator
 sudo ./install.sh
 
@@ -109,12 +97,7 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/install_wpsoffice
 sudo ./install.sh
 
-# Copy wallpapers folderes
-sudo cp -r ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
-sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
-
-# ACTION: Install nitrogen tool, copy more wallpapers pack and set default wallpaper to all users
-cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
+cd ~/projects/debian-openbox/script_install_dt-dark-theme
 sudo ./install.sh
 
 sudo cp ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian/lightdm_login.jpg /usr/share/images/desktop-base
