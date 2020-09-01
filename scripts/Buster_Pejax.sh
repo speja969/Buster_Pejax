@@ -7,6 +7,8 @@ HOME="/home/${default_user}"
 
 mkdir ~/.config
 
+sudo chown $USER:$USER ~/.config
+
 mkdir ~/.config/openbox
 
 mkdir ~/.config/tint2
