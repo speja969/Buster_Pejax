@@ -100,6 +100,9 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/script_install_dt-dark-theme
 sudo ./install.sh
 
+cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
+sudo ./install.sh
+
 sudo cp ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian/lightdm_login.jpg /usr/share/images/desktop-base
 sudo chmod 777 /usr/share/images/desktop-base/lightdm_login.jpg
 sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/lightdm_login.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
