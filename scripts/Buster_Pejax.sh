@@ -117,9 +117,9 @@ sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
 cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
 sudo ./install.sh
 
-sudo cp ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay/kuala-lumpur-1820944_1920.jpg /usr/share/images/desktop-base
-sudo chmod 777 /usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg
-sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/kuala-lumpur-1820944_1920.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
+sudo cp ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian/lightdm_login.jpg /usr/share/images/desktop-base
+sudo chmod 777 /usr/share/images/desktop-base/lightdm_login.jpg
+sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/lightdm_login.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
 
 
 
