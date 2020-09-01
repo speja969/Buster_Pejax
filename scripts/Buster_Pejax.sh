@@ -95,6 +95,8 @@ git clone https://github.com/speja969/debian-openbox.git
 sudo chmod --recursive 777 ~/projects
 sudo chmod --recursive 777 ~/.scripts
 
+
+
 cd ~/projects/debian-openbox/10_openbox_terminator
 sudo ./install.sh
 
@@ -107,7 +109,12 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/install_wpsoffice
 sudo ./install.sh
 
-cd ~/projects/debian-openbox/script_install_dt-dark-theme
+# Copy wallpapers folderes
+sudo cp -r ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
+sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
+
+# ACTION: Install nitrogen tool, copy more wallpapers pack and set default wallpaper to all users
+cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
 sudo ./install.sh
 
 sudo cp ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay/kuala-lumpur-1820944_1920.jpg /usr/share/images/desktop-base
