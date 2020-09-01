@@ -6,6 +6,11 @@
 				<execute>urxvtc</execute>
 			</action>
 		</item>
+		<item label="Terminator">
+			<action name="Execute">
+				<execute>terminator</execute>
+			</action>
+		</item>
 		<item label="Web browser">
 			<action name="Execute">
 				<execute>x-www-browser</execute>
@@ -19,7 +24,7 @@
 		<!-- This requires the presence of the 'openbox-menu' package to work -->
 		<item label="htop">
 			<action name="Execute">
-				<execute>rxvt-unicode -hold -e /usr/bin/htop</execute>
+				<execute>urxvtc -hold -e /usr/bin/htop</execute>
 			</action>
 		</item>
 		<separator/>
@@ -36,7 +41,7 @@
 		</item>
 		<item label="Ranger">
 			<action name="Execute">
-				<execute>rxvt-unicode -hold -e /usr/bin/ranger</execute>
+				<execute>urxvtc -hold -e /usr/bin/ranger</execute>
 			</action>
 		</item>
 		<separator/>
