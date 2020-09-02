@@ -104,6 +104,8 @@ sudo ./install.sh
 sudo cp -r ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
 sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
 
+sudo sed -i 's!wallpapers-pack1!wallpapers-pixabay!' /etc/lightdm/lightdm-gtk-greeter.conf
+
 # ACTION: Install nitrogen tool, copy more wallpapers pack and set default wallpaper to all users
 cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
 sudo ./install.sh
