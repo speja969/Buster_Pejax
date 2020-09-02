@@ -1,3 +1,5 @@
+<!-- Headings -->
+## Buster_Pejax  Debian Buster sa OpenBox WM
 <!-- OL (Ordered List) -->
 1. Potrebno je prvo skinuti sa Debianovog sajta ISO instalacioni fajl:
     * https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-10.5.0-amd64-netinst.iso
