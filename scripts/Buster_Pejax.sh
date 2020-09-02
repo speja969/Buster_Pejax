@@ -68,6 +68,7 @@ echo debinfo >> ~/.bashrc
 cp ~/Buster_Pejax/scripts/install_compton.sh ~/.scripts
 mkdir ~/bin
 cp ~/Buster_Pejax/dotfiles/start-compton.sh ~/bin
+sudo chmod --recursive 777 ~/bin
 
 ## instalacija ncmpcpp
 cp ~/Buster_Pejax/scripts/install_ncmpcpp.sh ~/.scripts
