@@ -100,6 +100,11 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/script_install_dt-dark-theme
 sudo ./install.sh
 
+# Copy wallpapers folderes
+sudo cp -r ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
+sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
+
+# ACTION: Install nitrogen tool, copy more wallpapers pack and set default wallpaper to all users
 cd ~/projects/debian-openbox/15_openbox_wallpaper-packs
 sudo ./install.sh
 
