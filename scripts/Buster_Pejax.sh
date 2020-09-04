@@ -141,6 +141,6 @@ sed -i 's!~/.config/openbox/autostart!~/.config/openbox/autostart.sh!' ~/.config
 
 sed -i 's!{exit!#{exit!' ~/.config/obmenu-generator/schema.pl
 
-sed -i 's_# __g;s/oblogout/obsession-logout/g' ~/.config/obmenu-generator/schema.pl
+sudo sed -i 's_# {item_{item_g;s/oblogout/obsession-logout/g' ~/.config/obmenu-generator/schema.pl
 
 sed -i 's!xterm!terminator!' ~/.config/obmenu-generator/config.pl
