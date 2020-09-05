@@ -11,10 +11,6 @@ curl -fsSL https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmen
 
 sudo apt update
 
-cd /usr/lib/x86_64-linux-gnu
-sudo cp -r perl5 perl15
-cd
-
 sudo apt install -y obmenu-generator
 
 obmenu-generator -s -i
@@ -31,4 +27,4 @@ sudo sed -i 's_# {item_{item_g;s/oblogout/obsession-logout/g' ~/.config/obmenu-g
 
 sed -i 's!xterm!terminator!' ~/.config/obmenu-generator/config.pl	
 
-##echo "alias /usr/lib/x86_64-linux-gnu/perl15/5.28/Gtk2.pm=/usr/lib/x86_64-linux-gnu/perl5/5.28/Gtk2.pm" >> ~/.bashrc
+
