@@ -153,6 +153,6 @@ xdg-mime default pcmanfm.desktop inode/directory
 
 ## install obmenu-generator
 cd ~/.scripts
-bash ./obmenu-generator.sh
+sudo ./obmenu-generator.sh
 
 
