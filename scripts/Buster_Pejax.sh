@@ -151,8 +151,5 @@ sudo chown --recursive $USER:$USER .
 ## setting default text editor
 xdg-mime default pcmanfm.desktop inode/directory
 
-## install obmenu-generator
-cd ~/.scripts
-sudo ./obmenu-generator.sh
 
 
