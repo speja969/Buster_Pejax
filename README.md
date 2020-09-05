@@ -1,5 +1,5 @@
 <!-- Headings -->
-## **Buster Pejax**
+## **Buster Pejax** (instructions in Serbian)
 ### *Debian Buster sa OpenBox WM*
 <!-- OL (Ordered List) -->
 1. Potrebno je prvo skinuti sa Debianovog sajta ISO instalacioni fajl:
