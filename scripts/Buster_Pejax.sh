@@ -79,6 +79,9 @@ cp ~/Buster_Pejax/scripts/screeny ~/.scripts
 ## reinstall youtube-dl
 cp ~/Buster_Pejax/scripts/reinstall_youtube-dl.sh ~/.scripts
 
+## obmenu-generator
+cp ~/Buster_Pejax/scripts/obmenu-generator.sh ~/.scripts
+
 mkdir ~/projects
 cd ~/projects
 git clone https://github.com/speja969/debian-openbox.git
@@ -148,7 +151,8 @@ sudo chown --recursive $USER:$USER .
 ## setting default text editor
 xdg-mime default pcmanfm.desktop inode/directory
 
-## setting default file manager
-xdg-mime default pcmanfm.desktop inode/directory
+## install obmenu-generator
+cd ~/.scripts
+sudo ./obmenu-generator.sh
 
 
