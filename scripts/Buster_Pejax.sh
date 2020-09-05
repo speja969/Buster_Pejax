@@ -144,3 +144,11 @@ sudo chown --recursive $USER:$USER .
 #sudo sed -i 's_# {item_{item_g;s/oblogout/obsession-logout/g' ~/.config/obmenu-generator/schema.pl
 
 #sed -i 's!xterm!terminator!' ~/.config/obmenu-generator/config.pl
+
+## setting default text editor
+xdg-mime default pcmanfm.desktop inode/directory
+
+## setting default file manager
+xdg-mime default pcmanfm.desktop inode/directory
+
+
