@@ -27,3 +27,4 @@ sudo sed -i 's_# {item_{item_g;s/oblogout/obsession-logout/g' ~/.config/obmenu-g
 
 sed -i 's!xterm!terminator!' ~/.config/obmenu-generator/config.pl	
 
+##echo "alias /usr/lib/x86_64-linux-gnu/perl15/5.28/Gtk2.pm=/usr/lib/x86_64-linux-gnu/perl5/5.28/Gtk2.pm" >> ~/.bashrc
