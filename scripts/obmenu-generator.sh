@@ -11,10 +11,11 @@ curl -fsSL https://download.opensuse.org/repositories/home:Head_on_a_Stick:obmen
 
 sudo apt update
 
-sudo apt install -y obmenu-generator
-
 cd /usr/lib/x86_64-linux-gnu
 sudo cp -r perl5 perl15
+cd
+
+sudo apt install -y obmenu-generator
 
 obmenu-generator -s -i
 
