@@ -13,7 +13,8 @@ sudo apt update
 
 sudo apt install -y obmenu-generator
 
-alias /usr/lib/x86_64-linux-gnu/perl15/5.28/Gtk2.pm=/usr/lib/x86_64-linux-gnu/perl5/5.28/Gtk2.pm" >> ~/.bashrc
+cd /usr/lib/x86_64-linux-gnu
+sudo cp -r perl5 perl15
 
 obmenu-generator -s -i
 
