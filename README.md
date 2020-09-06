@@ -23,8 +23,10 @@ _cd ~/.scripts_ && _sudo ./obmenu-generator.sh_
 
 <!-- Headings -->
 ## AKO SE INSTALIRA U VIRTUALBOX-u
-* potrebno je u tački 6. pre restarta instalirati GuestAdditions iz konzole (TTY) https://youtu.be/CwQ8XzP-h4Q?list=PL7ygF5ucclBQgWy6VruCjggBEXZxOcnxz
-* sudo adduser $USER vboxsf   ## dodati user-a grupi vboxsf (za šerovanje fajlova sa HOST-om)
+* potrebno je u tački 6. pre restarta instalirati GuestAdditions iz konzole (TTY):  
+https://youtu.be/CwQ8XzP-h4Q?list=PL7ygF5ucclBQgWy6VruCjggBEXZxOcnxz
+* sudo adduser $USER vboxsf   
+## dodati user-a grupi vboxsf (za šerovanje fajlova sa HOST-om)
 * dalje je isto od tačke 7. do kraja
 
 ![Cheese_20 09 2_11 54 55](https://user-images.githubusercontent.com/62497469/91967654-cb592500-ed13-11ea-9b6b-18d53566a27d.png)
