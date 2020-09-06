@@ -28,3 +28,4 @@ sudo sed -i 's_# {item_{item_g;s/oblogout/obsession-logout/g' ~/.config/obmenu-g
 sed -i 's!xterm!terminator!' ~/.config/obmenu-generator/config.pl	
 
 
+sed -i 's!<showIcons>no</showIcons>!<showIcons>yes</showIcons>!' ~/.config/openbox/rc.xml
