@@ -1,4 +1,3 @@
-<!-- Headings -->
 ## **Buster Pejax** (instructions in Serbian)
 ### *Debian Buster sa OpenBox WM*
 <!-- OL (Ordered List) -->
