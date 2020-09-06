@@ -10,7 +10,7 @@
 1. Izostaviti ROOT password tako da USER ima automatski SUDO ovlašćenja
 1. Na pitanje koje Grafičko okruženje da se instalira (Tasksel), od više ponuđenih (KDE,LXDE,...Debian default), ne izabrati ni jedno i čak odčekirati sve osim SSH i default utillity
 1. Posle instalacije i restarta, butuje se u konzolu (TTY), gde unosimo username i password  
-sudo apt update && sudo apt full-upgrade
+1. sudo apt update && sudo apt full-upgrade
 1. sudo apt install git
 1. git clone https://github.com/speja969/Buster_Pejax.git
 1. cd Buster_Pejax
