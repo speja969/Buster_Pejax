@@ -41,3 +41,4 @@ _`sudo adduser $USER vboxsf`_
 ![Font Manager](https://user-images.githubusercontent.com/62497469/92327031-03839f00-f057-11ea-8662-4e6f9cd7dfbf.png)
 ![Geany](https://user-images.githubusercontent.com/62497469/92327061-36c62e00-f057-11ea-86ca-130de1247d59.png)
 ![gnome-disk-utiliti](https://user-images.githubusercontent.com/62497469/92327077-6412dc00-f057-11ea-84c8-e8927f1ad1c0.png)
+![Mousepad](https://user-images.githubusercontent.com/62497469/92327101-96243e00-f057-11ea-8b99-917800a6fd1b.png)
