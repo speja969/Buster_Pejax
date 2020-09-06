@@ -38,3 +38,4 @@ _`sudo adduser $USER vboxsf`_
 
 ![Cheese_20 09 2_11 54 55](https://user-images.githubusercontent.com/62497469/91967654-cb592500-ed13-11ea-9b6b-18d53566a27d.png)
 ![Double Commander](https://user-images.githubusercontent.com/62497469/92326972-72acc380-f056-11ea-9880-e0922fd20094.png)
+![Font Manager](https://user-images.githubusercontent.com/62497469/92327031-03839f00-f057-11ea-8662-4e6f9cd7dfbf.png)
