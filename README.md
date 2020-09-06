@@ -45,3 +45,4 @@ _`sudo adduser $USER vboxsf`_
 ![Nitrogen](https://user-images.githubusercontent.com/62497469/92327116-ba801a80-f057-11ea-8058-7b023d0aa7cf.png)
 ![PCManFM](https://user-images.githubusercontent.com/62497469/92327132-e00d2400-f057-11ea-9c7f-0be41bee339d.png)
 ![rxvt-unicode](https://user-images.githubusercontent.com/62497469/92327166-07fc8780-f058-11ea-8e74-79cfda46f425.png)
+![Xarchiver](https://user-images.githubusercontent.com/62497469/92327192-3712f900-f058-11ea-8244-359d9ba9f1a0.png)
