@@ -344,15 +344,15 @@
       </action>
     </keybind>
     <keybind key="A-Print">
-        <action name="Execute">
-            <command>~/.scripts/screeny -f</command>
-        </action>
+      <action name="Execute">
+        <command>~/.scripts/screeny -f</command>
+      </action>
     </keybind>
     <keybind key="C-Print">
-        <action name="Execute">
-            <command>~/.scripts/screeny -s</command>
-        </action>
-    </keybind>    
+      <action name="Execute">
+        <command>~/.scripts/screeny -s</command>
+      </action>
+    </keybind>
     <!-- Keybindings for window switching -->
     <keybind key="A-Tab">
       <action name="NextWindow">
@@ -404,20 +404,57 @@
         <direction>down</direction>
       </action>
     </keybind>
-		<!-- Keybindings for running applications -->
-		<keybind key="W-Return">
-			<action name="Execute">
-				<command>urxvtc</command>
-			</action>
-		</keybind>
-	    <!-- Take a screenshot, say "Cheeeese!" -->
-	    <keybind key="Print">
-		    <action name="Execute">
-			    <command>~/.scripts/screeny</command>
-		    </action>
-	    </keybind>		
-    <!-- Keybindings for running dmenu -->
+    <!-- Keybindings for running applications -->
+    <keybind key="W-t">
+      <action name="Execute">
+        <command>terminator</command>
+      </action>
+    </keybind>
+    <keybind key="W-e">
+      <action name="Execute">
+        <command>geany</command>
+      </action>
+    </keybind>    
     <keybind key="W-w">
+      <action name="Execute">
+        <command>firefox-esr</command>
+      </action>
+    </keybind>    
+    <keybind key="W-h">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>htop</name>
+        </startupnotify>
+        <command>x-terminal-emulator -T 'htop task manager' -e htop</command>
+      </action>
+    </keybind>
+    <keybind key="W-f">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>File Manager</name>
+        </startupnotify>
+        <command>pcmanfm</command>
+      </action>
+    </keybind>    
+    <keybind key="W-v">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Volume</name>
+        </startupnotify>
+        <command>pavucontrol</command>
+      </action>
+    </keybind>        
+    <!-- Take a screenshot, say "Cheeeese!" -->
+    <keybind key="Print">
+      <action name="Execute">
+        <command>~/.scripts/screeny</command>
+      </action>
+    </keybind>
+    <!-- Keybindings for running dmenu -->
+    <keybind key="W-m">
       <action name="Execute">
         <startupnotify>
           <enabled>true</enabled>
@@ -426,7 +463,6 @@
         <command>dmenu_run</command>
       </action>
     </keybind>
-
   </keyboard>
   <mouse>
     <dragThreshold>1</dragThreshold>
@@ -784,7 +820,7 @@
        entry in parent menu
        if this is a negative value, then the delay is infinite and the
        submenu will not be hidden until a different submenu is opened -->
-    <showIcons>no</showIcons>
+    <showIcons>yes</showIcons>
     <!-- controls if icons appear in the client-list-(combined-)menu -->
     <manageDesktops>yes</manageDesktops>
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
