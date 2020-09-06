@@ -18,7 +18,8 @@
 1. cd scripts
 1. sudo ./Buster_Pejax.sh
 1. sudo reboot
-1. Po želji možete instalirati obmenu-generator:    _cd ~/.scripts_ && _sudo ./obmenu-generator.sh_
+1. Po želji možete instalirati obmenu-generator:    
+_cd ~/.scripts_ && _sudo ./obmenu-generator.sh_
 
 <!-- Headings -->
 ## AKO SE INSTALIRA U VIRTUALBOX-u
