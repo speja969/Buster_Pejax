@@ -126,4 +126,16 @@ sudo chown --recursive $USER:$USER .
 xdg-mime default pcmanfm.desktop inode/directory
 
 
+## settings htop.desktop & ranger.desktop files
+echo "Exec=x-terminal-emulator -T 'htop task manager' -e htop" > /tmp/htop_replacement
+
+sudo sed -i "s/^.*Exec=htop.*$/$(cat /tmp/htop_replacement)/" /usr/share/applications/htop.desktop
+
+sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/htop.desktop
+
+echo "Exec=x-terminal-emulator -T 'ranger task manager' -e ranger" > /tmp/ranger_replacement
+
+sudo sed -i "s/^.*Exec=ranger.*$/$(cat /tmp/ranger_replacement)/" /usr/share/applications/ranger.desktop
+
+sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/ranger.desktop
 
