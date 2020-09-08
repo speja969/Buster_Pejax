@@ -66,6 +66,7 @@ echo debinfo >> ~/.bashrc
 
 ## instalacija comptona
 cp ~/Buster_Pejax/scripts/install_compton.sh ~/.scripts
+cp ~/Baster_Pejax/dotfiles/compton.conf ~/.config
 mkdir ~/bin
 cp ~/Buster_Pejax/dotfiles/start-compton.sh ~/bin
 sudo chmod --recursive 777 ~/bin
