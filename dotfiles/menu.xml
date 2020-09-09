@@ -84,7 +84,7 @@
 		</item>
 		<item label="ncmpcpp">
 			<action name="Execute">
-				<execute>rxvt-unicode -hold -e /usr/bin/ncmpcpp</execute>
+				<execute>x-terminal-emulator -T 'ncmpcpp' -e ncmpcpp</execute>
 			</action>
 		</item>
 		<separator/>
