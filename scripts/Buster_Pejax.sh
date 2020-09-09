@@ -80,6 +80,9 @@ cp ~/Buster_Pejax/dotfiles/mpd.conf ~/.mpd
 touch ~/.mpd/mpd.db ~/.mpd/mpd.log ~/.mpd/mpd.pid
 sudo chmod --recursive 777 ~/.mpd
 sudo chmod --recursive 777 ~/.ncmpcpp
+echo "Exec=x-terminal-emulator -T 'ncmpcpp' -e ncmpcpp" > /tmp/ncmpcpp_replacement
+sudo sed -i "s/^.*Exec=ncmpcpp.*$/$(cat /tmp/ncmpcpp_replacement)/" /usr/share/applications/ncmpcpp.desktop
+sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/ncmpcpp.desktop
 
 ## screeny
 cp ~/Buster_Pejax/scripts/screeny ~/.scripts
