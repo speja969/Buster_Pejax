@@ -72,12 +72,19 @@ cp ~/Buster_Pejax/dotfiles/start-compton.sh ~/bin
 sudo chmod --recursive 777 ~/bin
 
 ## instalacija ncmpcpp
-cp ~/Buster_Pejax/scripts/install_ncmpcpp.sh ~/.scripts
+sudo apt install mpd ncmpcpp
+mkdir ~/.mpd
+mkdir ~/.ncmpcpp
+cp ~/Buster_Pejax/dotfiles/config ~/.ncmpcpp
+cp ~/Buster_Pejax/dotfiles/mpd.conf ~/.mpd
+touch ~/.mpd/mpd.db ~/.mpd/mpd.log ~/.mpd/mpd.pid
+sudo chmod --recursive 777 ~/.mpd
+sudo chmod --recursive 777 ~/.ncmpcpp
 
 ## screeny
 cp ~/Buster_Pejax/scripts/screeny ~/.scripts
 
-## reinstall youtube-dl
+## script for reinstall youtube-dl
 cp ~/Buster_Pejax/scripts/reinstall_youtube-dl.sh ~/.scripts
 
 ## obmenu-generator
