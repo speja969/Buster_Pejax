@@ -29,6 +29,10 @@ _`sudo reboot`_
 1. Po želji možete instalirati obmenu-generator:  
 _`cd ~/.scripts`_  
 _`sudo ./obmenu-generator.sh`_
+1. Potrebno je u konfiguracionim fajlovima **ncmpcpp** (_~/.mpd/mpd.conf_ i _~/.ncmpcpp/config_)  
+promeniti putanju foldera sa muzikom:  
+_`sudo geany ~/.mpd/mpd.conf`_  
+_`sudo geany ~/.ncmpcpp/config`_
 ## AKO SE INSTALIRA U VIRTUALBOX-u
 * potrebno je u tački 6. pre restarta instalirati GuestAdditions iz konzole (TTY):  
 https://youtu.be/CwQ8XzP-h4Q?list=PL7ygF5ucclBQgWy6VruCjggBEXZxOcnxz
