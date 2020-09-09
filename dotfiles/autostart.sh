@@ -15,7 +15,7 @@ urxvtd -q &
 
 pnmixer &
 
-compton -cC -i 0.7 -e 0.7 -m 0.9 -r 4 -l -4 -t -4 &
+compton -cC -i 0.85 -e 0.85 -m 0.9 -r 4 -l -4 -t -4 &
 # $HOME/bin/start-compton.sh &
 
 # Start screensaver
