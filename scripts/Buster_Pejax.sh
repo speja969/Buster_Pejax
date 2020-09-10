@@ -25,7 +25,7 @@ sudo apt-get install -y openbox obmenu obconf rxvt-unicode mousepad compton comp
 
 cp ~/Buster_Pejax/dotfiles/tint2rc ~/.config/tint2
 
-cp ~/Baster_Pejax/dotfiles/compton.conf ~/.config
+cp ~/Buster_Pejax/dotfiles/compton.conf ~/.config/
 
 cp ~/Buster_Pejax/dotfiles/autostart.sh ~/.config/openbox
 
