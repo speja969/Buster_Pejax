@@ -43,6 +43,10 @@ mkdir ~/.config/mpv
 
 cp ~/Buster_Pejax/dotfiles/mpv.conf ~/.config/mpv
 
+sudo cp ~/Buster_Pejax/dotfiles/ncmpcpp_48x48.png /usr/share/icons
+
+sudo chmod 777 /usr/share/icons/ncmpcpp_48x48.png
+
 
 
 # korekcija autorizacije za gdebi
@@ -84,6 +88,7 @@ sudo chmod --recursive 777 ~/.ncmpcpp
 echo "Exec=x-terminal-emulator -T 'ncmpcpp' -e ncmpcpp" > /tmp/ncmpcpp_replacement
 sudo sed -i "s/^.*Exec=ncmpcpp.*$/$(cat /tmp/ncmpcpp_replacement)/" /usr/share/applications/ncmpcpp.desktop
 sudo sed -i 's!Terminal=true!Terminal=false!' /usr/share/applications/ncmpcpp.desktop
+echo "Icon=/usr/share/icons/ncmpcpp_48x48.png" >> /usr/share/applications/ncmpcpp.desktop
 
 ## screeny
 cp ~/Buster_Pejax/scripts/screeny ~/.scripts
