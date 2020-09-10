@@ -73,7 +73,7 @@ cp ~/Buster_Pejax/dotfiles/start-compton.sh ~/bin
 sudo chmod --recursive 777 ~/bin
 
 ## instalacija ncmpcpp
-sudo apt install mpd ncmpcpp
+sudo apt install -y mpd ncmpcpp
 mkdir ~/.mpd
 mkdir ~/.ncmpcpp
 cp ~/Buster_Pejax/dotfiles/config ~/.ncmpcpp
