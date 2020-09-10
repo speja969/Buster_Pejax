@@ -33,7 +33,10 @@ _`sudo geany ~/.ncmpcpp/config`_
 _`sudo reboot`_
 1. Po želji možete instalirati obmenu-generator:  
 _`cd ~/.scripts`_  
-_`sudo ./obmenu-generator.sh`_
+_`sudo ./obmenu-generator.sh`_  
+ako želite ikonice na padajućem meniju:  
+_`desni klik mišem na Desktop`_-->_`Advanced Settings`_-->_`Obmenu-Generator`_-->  
+_`Generate a static menu with icons`_
 
 ## AKO SE INSTALIRA U VIRTUALBOX-u
 * potrebno je u tački 6. pre restarta instalirati GuestAdditions iz konzole (TTY):  
