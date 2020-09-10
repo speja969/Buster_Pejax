@@ -30,6 +30,7 @@ _`sudo reboot`_
 promeniti putanju foldera sa muzikom ili ostaviti po default-u (_`~/Music`_):  
 _`sudo geany ~/.mpd/mpd.conf`_  
 _`sudo geany ~/.ncmpcpp/config`_
+_`sudo reboot`_
 1. Po želji možete instalirati obmenu-generator:  
 _`cd ~/.scripts`_  
 _`sudo ./obmenu-generator.sh`_
