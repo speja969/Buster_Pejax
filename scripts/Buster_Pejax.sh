@@ -137,6 +137,8 @@ sudo cp ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian/lightdm_login.jpg /usr/share
 sudo chmod 777 /usr/share/images/desktop-base/lightdm_login.jpg
 sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/lightdm_login.jpg!' /etc/lightdm/lightdm-gtk-greeter.conf
 
+sudo chmod --recursive 777 ~/.config/nitrogen
+
 sudo chown --recursive $USER:$USER .
 
 ## setting default text editor
