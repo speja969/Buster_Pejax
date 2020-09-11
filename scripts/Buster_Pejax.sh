@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update && sudo apt upgrade
+sudo apt update && sudo apt -y upgrade
 
 default_user=$(logname 2>/dev/null || echo ${SUDO_USER:-${USER}})
 HOME="/home/${default_user}"
