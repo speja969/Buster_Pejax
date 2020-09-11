@@ -405,6 +405,15 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
+    <keybind key="W-l">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>Lock screen</name>
+        </startupnotify>
+        <command>xscreensaver-command -lock</command>
+      </action>
+    </keybind>          
     <keybind key="W-Escape">
       <action name="Execute">
         <startupnotify>
