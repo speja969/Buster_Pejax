@@ -405,6 +405,15 @@
       </action>
     </keybind>
     <!-- Keybindings for running applications -->
+    <keybind key="W-Escape">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>xkill</name>
+        </startupnotify>
+        <command>xkill</command>
+      </action>
+    </keybind>          
     <keybind key="W-t">
       <action name="Execute">
         <command>terminator</command>
