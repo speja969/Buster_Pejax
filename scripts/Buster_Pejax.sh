@@ -124,6 +124,9 @@ sudo ./install.sh
 cd ~/projects/debian-openbox/10_openbox_conky
 sudo ./install.sh
 
+cd ~/projects/debian-openbox/config_shortcut-kill-x
+sudo ./install.sh
+
 # Copy wallpapers folderes
 sudo cp -r ~/Buster_Pejax/WALLPAPERS/Wallpapers_Debian /usr/share/backgrounds
 sudo cp -r ~/Buster_Pejax/WALLPAPERS/wallpapers-pixabay /usr/share/backgrounds
