@@ -413,6 +413,16 @@
         </startupnotify>
         <command>xscreensaver-command -lock</command>
       </action>
+    </keybind>
+    <keybind key="W-x">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>false</enabled>
+          <name>Logout</name>
+        </startupnotify>
+        <command>obsession-logout</command>
+      </action>
+    </keybind>      
     </keybind>          
     <keybind key="W-Escape">
       <action name="Execute">
