@@ -11,7 +11,8 @@ fbxkb &
 
 urxvtd -q &
 
-~/conkystartup.sh
+#~/conkystartup.sh
+sleep 10 && /usr/bin/conky-session &
 
 pnmixer &
 
