@@ -421,8 +421,7 @@
           <name>Logout</name>
         </startupnotify>
         <command>obsession-logout</command>
-      </action>
-    </keybind>      
+      </action>     
     </keybind>          
     <keybind key="W-Escape">
       <action name="Execute">
