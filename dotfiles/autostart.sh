@@ -1,4 +1,8 @@
 
+## GNOME PolicyKit and Keyring
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg) &
+
 nitrogen --restore &
 
 export PATH="${PATH}:$HOME/.scripts"
