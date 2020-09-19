@@ -145,7 +145,7 @@ sudo sed -i 's!#background=!background=/usr/share/images/desktop-base/lightdm_lo
 
 sudo chmod --recursive 777 ~/.config/nitrogen
 
-sudo chown --recursive $USER:$USER .
+sudo chown --recursive $USER:$USER ~/
 
 ## setting default text editor
 xdg-mime default pcmanfm.desktop inode/directory
